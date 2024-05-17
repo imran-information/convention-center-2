@@ -4,3 +4,16 @@
     height: 80px;
     font-weight: 700;
 }
+
+.slaider h5,
+p {
+    color: white;
+}
+
+.slaider img {
+    height: 770px;
+}
+
+.gutter-gap {
+    grid-column-gap: 40px;
+}
