@@ -10,12 +10,14 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- Custom CSS style link-->
     <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awsome Icon Link -->
+    <script src="https://kit.fontawesome.com/78d84ebd26.js" crossorigin="anonymous"></script>
 </head>
 
 <body class="bg-dark text-white">
     <header>
         <!-- navbar start -->
-        <nav class="navbar navbar-expand-lg navbar-bg-color">
+        <nav class="navbar navbar-expand-lg navbar-bg-color navbar-margin fixed-top ">
             <div class="container">
                 <a class="navbar-brand text-white fw-bold" href="#">Abacus Convention Center</a>
                 <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse"
@@ -26,16 +28,16 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active text-white" aria-current="page" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">About Us</a>
+                            <a class="nav-link text-white" href="#aboutus">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Contact</a>
+                            <a class="nav-link text-white" href="#contact">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Subscribe</a>
+                            <a class="nav-link text-white" href="#subscribe">Subscribe</a>
                         </li>
                     </ul>
 
@@ -43,7 +45,7 @@
             </div>
         </nav>
         <!-- Slaider section start -->
-        <section class="-200px">
+        <section class="-200px" id="home">
             <div id="carouselExampleDark" class="carousel carousel-dark slide">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
@@ -59,13 +61,16 @@
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Flower slide label</h5>
                             <p>Some representative placeholder content for the first slide.</p>
+                            <button type="submit" class="btn-color">Book Now</button>
                         </div>
+
                     </div>
                     <div class="carousel-item" data-bs-interval="2000">
                         <img src="images//slaider-img-2.avif" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>River slide label</h5>
                             <p>Some representative placeholder content for the second slide.</p>
+                            <button type="submit" class="btn-color">Book Now</button>
                         </div>
                     </div>
                     <div class="carousel-item">
@@ -73,6 +78,7 @@
                         <div class="carousel-caption d-none d-md-block">
                             <h5>MackBook slide label</h5>
                             <p>Some representative placeholder content for the third slide.</p>
+                            <button type="submit" class="btn-color">Book Now</button>
                         </div>
                     </div>
 
@@ -91,9 +97,119 @@
         </section>
     </header>
     <main>
+        <!-- Every moment is Precious Section -->
+        <section class="container everymomment" id="aboutus">
+            <div class="row gx-5 d-flex align-items-center">
+                <div class="col-lg-6 col-sm-12">
+                    <div class="">
+                        <h1 class="mb-3">Every moment is Precious</h1>
+                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                            consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                        <button type="submit" class="btn-color">Explore our album
+                            <i class="fa fa-arrow-right"></i></button>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12 ">
+                    <img src="images/wedding.png" alt="">
+                </div>
+            </div>
+
+        </section>
+        <!-- Our package -->
+        <section class="container our-package">
+            <h1 class="text-center our-package">Our package</h1>
+            <div class="row gx-5 d-flex align-items-center">
+                <div class="col-lg-3 col-sm-12">
+                    <h3>$300</h3>
+                    <h3>Busness fair</h3>
+                    <p>for most Busness event like book fair, craft fair</p>
+                    <p> <img class="check-icon" src="icons/circle-check-solid.svg" alt="" srcset="">
+                        limited space
+                        access
+                    </p>
+                    <p> <img class="check-icon" src="icons/circle-check-solid.svg" alt="" srcset="">
+                        Secuirty facility
+                    </p>
+                    <p> <img class="check-icon" src="icons/circle-check-solid.svg" alt="" srcset="">
+                        event support
+                    </p>
+                    <p> <img class="check-icon" src="icons/circle-check-solid.svg" alt="" srcset="">
+                        Decoration design
+                    </p>
+                    <p> <img class="check-icon" src="icons/circle-check-solid.svg" alt="" srcset="">
+                        Per day bill
+                    </p>
+                    <button type="submit" class="btn-color">Choose plan</button>
+                </div>
+                <div class="col-lg-3 col-sm-12">
+                    <h3>$500</h3>
+                    <h3>wedding basic</h3>
+                    <p>For weddings with basic plan and limited item</p>
+                    <p> <img class="check-icon" src="icons/circle-check-solid.svg" alt="" srcset="">
+                        Full space access
+                    </p>
+                    <p> <img class="check-icon" src="icons/circle-check-solid.svg" alt="" srcset="">
+                        Food arrangement
+                    </p>
+                    <p> <img class="check-icon" src="icons/circle-check-solid.svg" alt="" srcset="">
+                        mangement support
+                    </p>
+                    <p> <img class="check-icon" src="icons/circle-check-solid.svg" alt="" srcset="">
+                        Decoration design
+                    </p>
+                    <p> <img class="check-icon" src="icons/circle-check-solid.svg" alt="" srcset="">
+                        Billed as shift
+                    </p>
+                    <button type="submit" class="btn-color">Choose plan</button>
+                </div>
+                <div class="col-lg-3 col-sm-12 rounded-4 bg-primary pt-4 pb-5 shadow-lg">
+                    <h3>$800</h3>
+                    <h3>Wedding plus</h3>
+                    <p>For most weddings with premium plans item</p>
+                    <p> <img class="check-icon" src="icons/circle-check-solid.svg" alt="" srcset="">
+                        limited space
+                        access
+                    </p>
+                    <p> <img class="check-icon" src="icons/circle-check-solid.svg" alt="" srcset="">
+                        Dedicated team
+                    </p>
+                    <p> <img class="check-icon" src="icons/circle-check-solid.svg" alt="" srcset="">
+                        Buffet food
+                    </p>
+                    <p> <img class="check-icon" src="icons/circle-check-solid.svg" alt="" srcset="">
+                        premium Decoration
+                    </p>
+                    <p> <img class="check-icon" src="icons/circle-check-solid.svg" alt="" srcset="">
+                        pay as plan
+                    </p>
+                    <button type="submit" class="btn-color">Choose plan</button>
+                </div>
+                <div class="col-lg-3 col-sm-12">
+                    <h3>$1200</h3>
+                    <h3>Corporate event</h3>
+                    <p>For most weddings with premium plans item</p>
+                    <p> <img class="check-icon" src="icons/circle-check-solid.svg" alt="" srcset="">
+                        Full space access
+                    </p>
+                    <p> <img class="check-icon" src="icons/circle-check-solid.svg" alt="" srcset="">
+                        Dedicated team
+                    </p>
+                    <p> <img class="check-icon" src="icons/circle-check-solid.svg" alt="" srcset="">
+                        Buffet food
+                    </p>
+                    <p> <img class="check-icon" src="icons/circle-check-solid.svg" alt="" srcset="">
+                        premium Decoration
+                    </p>
+                    <p> <img class="check-icon" src="icons/circle-check-solid.svg" alt="" srcset="">
+                        pay as plan
+                    </p>
+                    <button type="submit" class="btn-color">Choose plan</button>
+                </div>
+            </div>
+        </section>
         <!-- Happy Clients Says Section -->
-        <section class="container mt-5 text-center">
-            <h1 class="pb-5">Happy Clients Says</h1>
+        <section class="container everymomment text-center" id="contact">
+            <h1 class="mb-5">Happy Clients Says</h1>
             <div class="row gutter-gap">
                 <div class="col bg-white text-dark p-4 rounded-2 shadow-lg">
                     <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur fuga iure
@@ -109,8 +225,8 @@
                         sint non at ut nam
                         quia et ipsa, possimus autem sapiente sequi praesentium exercitationem illo nesciunt,
                         corporis distinctio porro.</p>
-                    <img src="images/person 1.png" alt="">
-                    <h4 class="fw-bold">Regina Miles</h4>
+                    <img src="images/person 2.png" alt="">
+                    <h4 class="fw-bold">Jone Drake</h4>
                     <h5 class="fst-italic">Bankar</h5>
                 </div>
                 <div class="col bg-white text-dark p-4 rounded-2 shadow-lg">
@@ -118,8 +234,8 @@
                         sint non at ut nam
                         quia et ipsa, possimus autem sapiente sequi praesentium exercitationem illo nesciunt,
                         corporis distinctio porro.</p>
-                    <img src="images/person 1.png" alt="">
-                    <h4 class="fw-bold">Regina Miles</h4>
+                    <img src="images/person 3.png" alt="">
+                    <h4 class="fw-bold">Cret Yater</h4>
                     <h5 class="fst-italic">Bankar</h5>
                 </div>
             </div>
@@ -218,8 +334,7 @@
             </div>
         </section>
         <!-- From submit section  -->
-        <section class="container p-4 rounded-2 bg-light d-flex justify-content-center">
-
+        <section class="container p-4 rounded-2 bg-light d-flex justify-content-center" id="subscribe">
             <form class="w-25">
                 <h1 class="text-black-50 pb-3">Subscribe Now</h1>
                 <div class="mb-3">
@@ -230,13 +345,26 @@
                     <label for="exampleInputPassword1" class="form-label  text-dark fw-bold">Password</label>
                     <input type="password" class="form-control" id="exampleInputPassword1">
                 </div>
-                <button type="submit" class="btn-color">Subscribe</button>
+                <button type="submit" class="btn-color ">Subscribe</button>
             </form>
         </section>
     </main>
-    <footer class="w-100 pt-5 pb-3">
-        <p class="text-center">Copyright © 2024 Convention Center</p>
+
+    <footer class="bg-black  mt-5 py-5 d-flex justify-content-around align-items-center">
+        <div>
+            <p class="text-white">Copyright© 2020 bike. All rights reserved</p>
+        </div>
+        <div>
+            <h3>
+                <h2 class="text-white">Get the App</h2>
+                <a class="googleimg"
+                    href="https://play.google.com/store/apps/details?id=com.learnprogramming.codecamp"><img
+                        src="icons/icon.jpg" alt="">
+                </a>
+            </h3>
+        </div>
     </footer>
+
 
 
     <!-- Bootstrap js link -->
